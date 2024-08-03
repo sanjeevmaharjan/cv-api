@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="21">
+      <module name="core" target="21" />
+      <module name="core.adapter" target="21" />
+      <module name="core.adapter.main" target="21" />
+      <module name="core.adapter.test" target="21" />
+      <module name="core.common" target="21" />
+      <module name="core.common.main" target="21" />
+      <module name="core.common.test" target="21" />
+      <module name="core.domain.main" target="21" />
+      <module name="core.domain.test" target="21" />
+      <module name="core.main" target="21" />
+      <module name="core.service" target="21" />
+      <module name="core.service.main" target="21" />
+      <module name="core.service.test" target="21" />
+      <module name="core.test" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

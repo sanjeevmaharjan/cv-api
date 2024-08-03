@@ -1,0 +1,18 @@
+server:
+  port: 8080
+logging:
+  level:
+    ROOT: INFO
+    np.com.sanjeev.cvapp: DEBUG
+    org.springframework.security: DEBUG
+spring:
+  application:
+    name: cvapp
+  datasource:
+    url: jdbc:mysql://localhost/cvapp
+    username: cvapp
+    password: cvapp
+  jpa:
+    hibernate:
+      ddl-auto: update
+  #    show-sql: true

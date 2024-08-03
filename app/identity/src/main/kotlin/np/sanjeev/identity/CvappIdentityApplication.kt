@@ -1,0 +1,17 @@
+package np.sanjeev.identity
+
+import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.autoconfigure.domain.EntityScan
+import org.springframework.boot.runApplication
+import org.springframework.context.annotation.ComponentScan
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories
+
+@SpringBootApplication
+@ComponentScan(basePackages = ["np.sanjeev"])
+@EnableJpaRepositories(basePackages = ["np.sanjeev"])
+@EntityScan("np.sanjeev")
+class CvappApplication
+
+fun main(args: Array<String>) {
+    runApplication<CvappApplication>(*args)
+}
