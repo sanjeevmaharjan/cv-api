@@ -8,3 +8,5 @@ This repo contains the code for CV search app Identity Server and the API server
 2. Wait for the gradle project to load
 3. Configure your jdbc in application.yaml files
 4. Start Identity Server and then the API Server
+
+> Has a db seeder with csv listing some sample cvs.
